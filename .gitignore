@@ -1,0 +1,50 @@
+# Python related
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+*.pyo
+env/
+venv/
+.venv/
+.Python
+pip-log.txt
+
+# FastAPI specific
+instance/
+*.log
+*.pot
+*.pyc
+
+# MySQL configuration and databases
+*.db
+db.sqlite3
+mysql_config.cnf
+
+# Node.js (React) related
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+
+# IDE/Editor specific
+.vscode/
+.idea/
+
+# Build output directories
+build/
+dist/
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+
+# pytest
+.cache/
+.tox/
+
+# Migrations folder (optional)
+migrations/
